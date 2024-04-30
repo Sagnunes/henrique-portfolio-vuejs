@@ -9,13 +9,13 @@
     .hero {
         --max-dimension: 40.625rem;
 
-        background: url("../images/mobile/herov2.jpg") no-repeat center top;
+        background: url("/images/mobile/herov2.jpg") no-repeat center top;
         height: 80vh;
         max-height: var(--max-dimension);
 
         @screen sm {
             background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-            url("public/images/desktop/hero.jpg");
+            url("/images/desktop/hero.jpg");
         }
 
         & h1 {

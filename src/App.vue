@@ -7,9 +7,9 @@ import ProjectsComponent from '@/components/ProjectsComponent.vue'
 
 <template>
   <div class="mb-24 text-white bg-cover hero lg:mb-40">
-   <HeaderComponent/>
-    <AboutComponent/>
-    <ProjectsComponent/>
+    <HeaderComponent />
+    <AboutComponent />
+    <ProjectsComponent />
   </div>
 </template>
 

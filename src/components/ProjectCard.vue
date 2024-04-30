@@ -1,11 +1,11 @@
 <script setup>
-const props = defineProps(['title', 'image_desktop', 'image_mobile'])
+const props = defineProps(['title', 'image_desktop', 'image_mobile','dialog'])
 </script>
 
 <template>
   <div
     class="relative flex  cursor-pointer flex-col overflow-hidden bg-white bg-clip-border text-gray-700 shadow-md transition-opacity hover:opacity-90"
-    data-dialog-target="image-dialog"
+    :data-dialog-target="dialog"
   >
             <span class="grid card">
                 <picture class="relative col-span-full row-span-full">
