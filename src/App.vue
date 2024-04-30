@@ -1,11 +1,14 @@
 <script setup>
 
+import HeaderComponent from '@/components/HeaderComponent.vue'
+import AboutComponent from '@/components/AboutComponent.vue'
 </script>
 
 <template>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+  <div class="mb-24 text-white bg-cover hero lg:mb-40">
+   <HeaderComponent/>
+    <AboutComponent/>
+  </div>
 </template>
 
 <style scoped>
