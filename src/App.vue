@@ -3,6 +3,7 @@
 import HeaderComponent from '@/components/HeaderComponent.vue'
 import AboutComponent from '@/components/AboutComponent.vue'
 import ProjectsComponent from '@/components/ProjectsComponent.vue'
+import FooterComponent from '@/components/FooterComponent.vue'
 </script>
 
 <template>
@@ -10,6 +11,7 @@ import ProjectsComponent from '@/components/ProjectsComponent.vue'
     <HeaderComponent />
     <AboutComponent />
     <ProjectsComponent />
+    <FooterComponent/>
   </div>
 </template>
 

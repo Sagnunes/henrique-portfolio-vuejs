@@ -42,7 +42,7 @@
               <a href="#projetos" class="p-2 duration-300 ease-in-out md:bg-bottom uppercase">Projetos</a>
             </li>
             <li>
-              <a href="#contatos" class="p-2 duration-300 ease-in-out md:bg-bottom uppercase">Contactos</a>
+              <a href="#contactos" class="p-2 duration-300 ease-in-out md:bg-bottom uppercase">Contactos</a>
             </li>
           </ul>
         </nav>
