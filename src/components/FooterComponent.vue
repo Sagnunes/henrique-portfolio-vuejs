@@ -6,7 +6,7 @@
   <footer class="px-6 text-center text-white bg-black pt-14 lg:pt-11" id="contactos">
     <div class="max-w-screen-xl mx-auto md:grid md:items-start md:px-6">
       <a href="#" class="inline-flex mx-auto mb-8 md:mx-0 md:block lg:mb-6">
-        <img src="#" alt="loopstudios" class="w-36"/>
+        <img src="#" alt="Henrique Santos" class="w-36"/>
       </a>
 
       <nav>

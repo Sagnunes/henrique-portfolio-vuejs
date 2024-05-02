@@ -11,7 +11,7 @@ const fullImage = computed(() => {
 <template>
   <div class="flex flex-col space-y-5">
     <router-link to="/"
-                 class="mx-auto table rounded-sm border-2 border-very-dark-gray py-2 px-10 text-center uppercase tracking-[0.25em] text-black duration-300 hover:border-black hover:bg-black hover:text-white lg:mx-0 lg:inline-flex">
+                 class="mx-auto table rounded-sm border-2 border-very-dark-gray py-2 px-10 text-center uppercase tracking-[0.25em] text-black duration-300 hover:border-black hover:bg-black hover:text-white lg:mx-0 lg:inline-flex w-fit">
       Voltar
     </router-link>
     <p class="text-black">{{route.query.image}}</p>
