@@ -9,7 +9,7 @@
     .hero {
         --max-dimension: 40.625rem;
 
-        background: url("/images/mobile/herov2.jpg") no-repeat center top;
+        background: url("/images/mobile/hero.jpg") no-repeat center top;
         height: 80vh;
         max-height: var(--max-dimension);
 
