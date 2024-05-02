@@ -39,7 +39,7 @@
               <a href="#sobre" class="p-2 duration-300 ease-in-out md:bg-bottom uppercase">Sobre</a>
             </li>
             <li>
-              <a href="#projetos" class="p-2 duration-300 ease-in-out md:bg-bottom uppercase">Projetos</a>
+              <a href="#projetos" class="p-2 duration-300 ease-in-out md:bg-bottom uppercase mr-[150px]">Projetos</a>
             </li>
             <li>
               <a href="#contactos" class="p-2 duration-300 ease-in-out md:bg-bottom uppercase">Contactos</a>

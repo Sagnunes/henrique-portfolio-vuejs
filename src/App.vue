@@ -11,7 +11,6 @@ import FooterComponent from '@/components/FooterComponent.vue'
     <HeaderComponent />
     <AboutComponent />
     <ProjectsComponent />
-
     <FooterComponent/>
   </div>
 </template>
