@@ -17,7 +17,7 @@
         Tenho 30 anos, sou atualmente técnico de som e vídeo, trabalho em espetáculos ao vivo. Sempre tive interesse
         pela criação multimédia por isso estudei audiovisual e multimédia na Escola Superior de Comunicação Social,
         onde desenvolvi as minhas competências a nível da fotografia, vídeo, som e design, que me permitiu passar
-        por todas as diferentes etapas da produção, realização e pós-produção.   Gosto de aprender e de superar
+        por todas as diferentes etapas da produção, realização e pós-produção. Gosto de aprender e de superar
         desafios.
       </p>
     </div>
