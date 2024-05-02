@@ -60,6 +60,14 @@ import TimelineComponent from '@/components/TimelineComponent.vue'
         <ProjectCard title="Timeline" image_mobile="images/desktop/timeline.png"
                      image_desktop="images/desktop/timeline.png" category="Fotografia"/>
       </router-link>
+
+      <router-link :to="{
+     path: '/project',
+      query: { image: 'flyer' }
+    }">
+        <ProjectCard title="Flyer Imobiliária" image_mobile="images/desktop/flyer.png"
+                     image_desktop="images/desktop/flyer.png" category="Design Gráfico"/>
+      </router-link>
     </div>
   </div>
   <TimelineComponent/>
