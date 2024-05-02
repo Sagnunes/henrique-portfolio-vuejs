@@ -16,15 +16,40 @@ import ProjectCard from '@/components/ProjectCard.vue'
   >
     <ProjectCard title="Expériencias Imersivas" image_mobile="images/desktop/madeira-experiencias.jpg"
                  image_desktop="images/desktop/madeira-experiencias.jpg" dialog="image-dialog" />
-    <ProjectCard title="Fotografia Noturna" image_mobile="images/desktop/fotografia-noturna.png"
-                 image_desktop="images/desktop/fotografia-noturna.png" />
-    <ProjectCard title="Fotografia Arquitetura" image_mobile="images/desktop/arquitetura.png"
-                 image_desktop="images/desktop/arquitetura.png" />
-    <ProjectCard title="Inventário de Arte" image_mobile="images/desktop/arte.png"
-                 image_desktop="images/desktop/arte.png" />
-    <ProjectCard title="Salada" image_mobile="images/desktop/salada.png" image_desktop="images/desktop/salada.png" />
+    <router-link :to="{
+     path: '/project',
+      query: { image: 'noturna' }
+    }">
+      <ProjectCard title="Fotografia Noturna" image_mobile="images/desktop/fotografia-noturna.png"
+                   image_desktop="images/desktop/fotografia-noturna.png" />
+    </router-link>
+    <router-link :to="{
+     path: '/project',
+      query: { image: 'arquitetura' }
+    }">
+      <ProjectCard title="Fotografia Arquitetura" image_mobile="images/desktop/arquitetura.png"
+                   image_desktop="images/desktop/arquitetura.png" />
+    </router-link>
+   <router-link :to="{
+     path: '/project',
+      query: { image: 'arte' }
+    }">
+     <ProjectCard title="Inventário de Arte" image_mobile="images/desktop/arte.png"
+                  image_desktop="images/desktop/arte.png" />
+   </router-link>
+ <router-link :to="{
+     path: '/project',
+      query: { image: 'salada' }
+    }">
+   <ProjectCard title="Salada" image_mobile="images/desktop/salada.png" image_desktop="images/desktop/salada.png" />
+ </router-link>
+  <router-link :to="{
+     path: '/project',
+      query: { image: 'design' }
+    }">
     <ProjectCard title="Design Brand Identity" image_mobile="images/desktop/design_brand.png"
                  image_desktop="images/desktop/design_brand.png" />
+  </router-link>
     <router-link :to="{
      path: '/project',
       query: { image: 'timeline' }
