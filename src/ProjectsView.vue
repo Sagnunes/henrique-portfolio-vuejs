@@ -1,7 +1,6 @@
 <script setup>
 
 import ProjectCard from '@/components/ProjectCard.vue'
-import TimelineComponent from '@/components/TimelineComponent.vue'
 </script>
 
 <template>
@@ -68,9 +67,11 @@ import TimelineComponent from '@/components/TimelineComponent.vue'
         <ProjectCard title="Flyer Imobiliária" image_mobile="images/desktop/flyer.png"
                      image_desktop="images/desktop/flyer.png" category="Design Gráfico"/>
       </router-link>
+
+      <router-link :to="{path:'/night-views'}" class="text-black">Night View</router-link>
+      <router-link :to="{path:'/paisagens'}" class="text-black">Paisagens</router-link>
     </div>
   </div>
-  <TimelineComponent/>
 </template>
 
 <style scoped>
