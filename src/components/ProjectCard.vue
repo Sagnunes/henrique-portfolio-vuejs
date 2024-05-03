@@ -13,10 +13,10 @@ const props = defineProps(['title', 'image_desktop', 'image_mobile','dialog','ca
                     <img :src="image_desktop" alt="car wheel" width="654" height="240"/>
                 </picture>
                 <h4
-                  class="z-10 row-start-2 ml-5 text-2xl text-white leading-none col-span-full font-headline lg:ml-4 lg:text-[32px] lg:leading-8 lg:tracking-wide ">
+                  class="z-10 row-start-2 ml-5 text-2xl text-white leading-none col-span-full font-headline lg:ml-4 lg:text-[27px] lg:leading-8 lg:tracking-wide ">
                    {{title}}
                 </h4>
-              <span class="z-10 row-start-2 ml-5 text-2xl text-white leading-none col-span-full font-headline lg:ml-4 lg:text-[13px] lg:leading-8 lg:tracking-[1px] absolute top-[410px] font-bold bg-black bg-opacity-45 px-3">
+              <span class="z-10 row-start-2 ml-5 text-2xl text-white leading-none col-span-full font-headline lg:ml-4 lg:text-[13px] lg:leading-8 lg:tracking-[1px] absolute top-[290px] font-bold bg-black bg-opacity-45 px-3">
                 {{ category }}
               </span>
             </span>
