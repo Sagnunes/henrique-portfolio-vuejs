@@ -9,18 +9,18 @@
   </router-link>
   <div class="flex flex-col space-y-2 w-fit">
     <div class="grid grid-cols-2 gap-2">
-      <img src="/images/arte/16112015-824117.png" alt="" >
-      <img src="/images/arte/16112015-819917.png" alt="" >
+      <img src="/images/arte/16112015-824117.png" alt="" class="w-full h-full">
+      <img src="/images/arte/16112015-819917.png" alt="" class="w-full h-full">
     </div>
     <img src="/images/arte/16112015-799117.png" alt="">
     <div class="grid grid-cols-2 gap-2">
-      <img src="/images/arte/16112015-835517-Edit-2.png" alt="" >
-      <img src="/images/arte/16112015-833217.png" alt="" >
+      <img src="/images/arte/16112015-835517-Edit-2.png" alt="" class="w-full h-full">
+      <img src="/images/arte/16112015-833217.png" alt="" class="w-full h-full">
     </div>
     <img src="/images/arte/16112015-810217.png" alt="">
     <div class="grid grid-cols-2 gap-2">
-      <img src="/images/arte/16112015-833517.png" alt="" >
-      <img src="/images/arte/16112015-825017.png" alt="" >
+      <img src="/images/arte/16112015-833517.png" alt="" class="w-full h-full">
+      <img src="/images/arte/16112015-825017.png" alt="" class="w-full h-full">
     </div>
   </div>
 </template>

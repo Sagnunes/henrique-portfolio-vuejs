@@ -58,6 +58,12 @@ import ProjectCard from '@/components/ProjectCard.vue'
                      image_desktop="images/desktop/casamento.png" dialog="image-dialog"
                      category="Design Gráfico" />
       </router-link>
+
+      <router-link :to="{path:'/casamento'}">
+        <ProjectCard title="Gravação OCM" image_mobile="images/desktop/musica.png"
+                     image_desktop="images/desktop/musica.png" dialog="image-dialog"
+                     category="Áudio" />
+      </router-link>
     </div>
   </div>
 </template>
