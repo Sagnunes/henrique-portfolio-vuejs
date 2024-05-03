@@ -10,7 +10,7 @@ const props = defineProps(['title', 'image_desktop', 'image_mobile','dialog','ca
             <span class="grid card">
                 <picture class="relative col-span-full row-span-full">
                     <source :srcset="image_mobile" media="(min-width: 960px)"/>
-                    <img :src="image_desktop" alt="car wheel" width="654" height="240"/>
+                    <img :src="image_desktop" alt="car wheel" width="654" height="240" />
                 </picture>
                 <h4
                   class="z-10 row-start-2 ml-5 text-2xl text-white leading-none col-span-full font-headline lg:ml-4 lg:text-[27px] lg:leading-8 lg:tracking-wide ">

@@ -33,14 +33,14 @@ import ProjectCard from '@/components/ProjectCard.vue'
 
 
       <router-link :to="{path:'/drink'}">
-       <ProjectCard title="Design Brand Identity" image_mobile="images/desktop/design_brand.png"
-                    image_desktop="images/desktop/design_brand.png" category="Packaging Design" />
-     </router-link>
+        <ProjectCard title="Design Brand Identity" image_mobile="images/desktop/design_brand.png"
+                     image_desktop="images/desktop/design_brand.png" category="Packaging Design" />
+      </router-link>
 
       <router-link :to="{path:'/folheto'}">
-       <ProjectCard title="Flyer Imobiliária" image_mobile="images/desktop/flyer.png"
-                    image_desktop="images/desktop/flyer.png" category="Design Gráfico" />
-     </router-link>
+        <ProjectCard title="Flyer Imobiliária" image_mobile="images/desktop/flyer.png"
+                     image_desktop="images/desktop/flyer.png" category="Design Gráfico" />
+      </router-link>
 
       <ProjectCard title="Cooking" image_mobile="images/desktop/salada.png"
                    image_desktop="images/desktop/salada.png" category="MULTIMEDIA" />
@@ -52,6 +52,12 @@ import ProjectCard from '@/components/ProjectCard.vue'
       <ProjectCard title="Cartão de Visita" image_mobile="images/desktop/cartao_visita.png"
                    image_desktop="images/desktop/cartao_visita.png" dialog="image-dialog"
                    category="Design Gráfico" />
+
+      <router-link :to="{path:'/casamento'}">
+        <ProjectCard title="Casamento" image_mobile="images/desktop/casamento.png"
+                     image_desktop="images/desktop/casamento.png" dialog="image-dialog"
+                     category="Design Gráfico" />
+      </router-link>
     </div>
   </div>
 </template>

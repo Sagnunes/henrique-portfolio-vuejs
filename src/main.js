@@ -10,6 +10,7 @@ import PaisagensView from '@/PaisagensView.vue'
 import InventarioArteView from '@/InventarioArteView.vue'
 import DrinkView from '@/DrinkView.vue'
 import FolhetoView from '@/FolhetoView.vue'
+import CasamentoView from '@/CasamentoView.vue'
 
 const routes = [
   { path: '/', component: ProjectsView },
@@ -18,6 +19,7 @@ const routes = [
   { path: '/inventario-arte', component: InventarioArteView },
   { path: '/drink', component: DrinkView },
   { path: '/folheto', component: FolhetoView },
+  { path: '/casamento', component: CasamentoView },
   { path: '/project/', component: ProjectView, props: true }
 ]
 
