@@ -8,7 +8,7 @@
     Voltar
   </router-link>
   <div class="flex flex-col space-y-2 w-fit">
-    <img src="/images/casamento/Untitled-1.png" alt="" >
+    <img src="/images/casamento/casamento_header.png" alt="" >
     <div class="grid grid-cols-2 gap-2">
       <img src="/images/casamento/Untitled-1.png" alt="">
       <img src="/images/casamento/Plano%20de%20mesas.png" alt="">
