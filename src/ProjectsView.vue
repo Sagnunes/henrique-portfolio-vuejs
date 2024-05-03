@@ -49,11 +49,9 @@ import ProjectCard from '@/components/ProjectCard.vue'
                    image_desktop="images/desktop/madeira-experiencias.jpg" dialog="image-dialog"
                    category="Multimedia" />
 
-      <!--      <router-link :to="{path:'/night-views'}" class="text-black">Night View</router-link>-->
-      <!--      <router-link :to="{path:'/paisagens'}" class="text-black">Paisagens</router-link>-->
-      <!--      <router-link :to="{path:'/inventario-arte'}" class="text-black">Arte</router-link>-->
-      <!--      <router-link :to="{path:'/drink'}" class="text-black">drink</router-link>-->
-      <!--      <router-link :to="{path:'/folheto'}" class="text-black">folheto</router-link>-->
+      <ProjectCard title="Cartão de Visita" image_mobile="images/desktop/cartao_visita.png"
+                   image_desktop="images/desktop/cartao_visita.png" dialog="image-dialog"
+                   category="Design Gráfico" />
     </div>
   </div>
 </template>
