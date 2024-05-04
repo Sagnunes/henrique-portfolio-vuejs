@@ -3,63 +3,37 @@
 </script>
 
 <template>
-  <footer class="px-6 text-center text-white bg-black pt-14 lg:pt-11" id="contactos">
+  <footer class="px-6 text-white bg-black pt-14 lg:pt-11" id="contactos">
     <div class="max-w-screen-xl mx-auto md:grid md:items-start md:px-6">
-      <a href="#" class="inline-flex mx-auto mb-8 md:mx-0 md:block lg:mb-6">
-        <img src="#" alt="Henrique Santos" class="w-36"/>
-      </a>
-
-      <nav>
-        <ul class="mb-12 space-y-4 md:-ml-4 md:flex md:space-y-0">
-          <li>
-            <a href="#sobre" class="bg-bottom px-5 py-3 duration-300 ease-in-out md:px-2.5 lg:px-4">Sobre</a>
-          </li>
-          <li>
-            <a href="#projetos" class="bg-bottom px-5 py-3 duration-300 ease-in-out md:px-2.5 lg:px-4">Projetos</a>
-          </li>
-          <li>
-            <a href="#contactos" class="bg-bottom px-5 py-3 duration-300 ease-in-out md:px-2.5 lg:px-4">Contactos</a>
-          </li>
-        </ul>
-      </nav>
-
-      <div class="inline-flex items-center col-start-2 row-start-1 mx-auto mb-4 space-x-4 md:mx-0 md:justify-end">
-        <a href="#" class="social-icon bg-bottom pb-2.5 lg:duration-300">
-          <svg width="24" height="24">
-            <title>Facebook</title>
-            <path
-              d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0z"
-              fill="#FFF" fill-rule="nonzero"/>
-          </svg>
-        </a>
-        <a href="#" class="social-icon bg-bottom pb-2.5 lg:duration-300">
-          <svg width="24" height="20">
-            <title>Twitter</title>
-            <path
-              d="M24 2.557a9.83 9.83 0 01-2.828.775A4.932 4.932 0 0023.337.608a9.864 9.864 0 01-3.127 1.195A4.916 4.916 0 0016.616.248c-3.179 0-5.515 2.966-4.797 6.045A13.978 13.978 0 011.671 1.149a4.93 4.93 0 001.523 6.574 4.903 4.903 0 01-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 01-2.224.084 4.928 4.928 0 004.6 3.419A9.9 9.9 0 010 17.54a13.94 13.94 0 007.548 2.212c9.142 0 14.307-7.721 13.995-14.646A10.025 10.025 0 0024 2.557z"
-              fill="#FFF" fill-rule="nonzero"/>
-          </svg>
-        </a>
-        <a href="#" class="social-icon bg-bottom pb-2.5 lg:duration-300">
-          <svg width="24" height="24">
-            <title>Pinterest</title>
-            <path
-              d="M12 0C5.373 0 0 5.372 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 01.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z"
-              fill="#FFF" fill-rule="nonzero"/>
-          </svg>
-        </a>
-        <a href="#" class="social-icon bg-bottom pb-2.5 lg:duration-300">
-          <svg width="24" height="24">
-            <title>Instagram</title>
-            <path
-              d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"
-              fill="#FFF" fill-rule="nonzero"/>
-          </svg>
-        </a>
+      <p class="text-[13px] font-headline uppercase leading-[120%] font-bold tracking-[1.5px] mb-12">Entre em Contato
+        Comigo</p>
+      <h3 class="font-headline uppercase font-bold text-[32px] leading-[120%] tracking-normal">+351 927 404 624</h3>
+      <div class="flex flex-row justify-between mb-16">
+        <h4 class="font-headline font-bold text-[32px] leading-[120%] tracking-normal">henriquedfsantos@gmail.com</h4>
+        <div class="flex flex-row gap-4">
+          <div class="bg-white rounded-full w-8 h-8 flex items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="10" height="20">
+              <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path
+                d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z" />
+            </svg>
+          </div>
+          <div class="bg-white rounded-full w-8 h-8 flex justify-center items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="15" height="30">
+              <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path
+                d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
+            </svg>
+          </div>
+          <div class="bg-white rounded-full w-8 h-8 flex justify-center items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="15" height="30">
+              <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path
+                d="M498.1 5.6c10.1 7 15.4 19.1 13.5 31.2l-64 416c-1.5 9.7-7.4 18.2-16 23s-18.9 5.4-28 1.6L284 427.7l-68.5 74.1c-8.9 9.7-22.9 12.9-35.2 8.1S160 493.2 160 480V396.4c0-4 1.5-7.8 4.2-10.7L331.8 202.8c5.8-6.3 5.6-16-.4-22s-15.7-6.4-22-.7L106 360.8 17.7 316.6C7.1 311.3 .3 300.7 0 288.9s5.9-22.8 16.1-28.7l448-256c10.7-6.1 23.9-5.5 34 1.4z" />
+            </svg>
+          </div>
+        </div>
       </div>
-
-      <small class="block text-base tracking-tight text-gray-600 mb-7 md:text-right">&copy; 2024 -  Henrique Santos <br> All
-        rights reserved.</small>
     </div>
   </footer>
 </template>
