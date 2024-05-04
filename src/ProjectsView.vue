@@ -58,9 +58,9 @@ import ProjectCard from '@/components/ProjectCard.vue'
       </router-link>
 
       <router-link :to="{path:'/salad'}">
-       <ProjectCard title="Cooking" image_mobile="images/desktop/salada.png"
-                    image_desktop="images/desktop/salada.png" category="MULTIMEDIA" />
-     </router-link>
+        <ProjectCard title="Cooking" image_mobile="images/desktop/salada.png"
+                     image_desktop="images/desktop/salada.png" category="MULTIMEDIA" />
+      </router-link>
 
       <router-link :to="{path:'/madeira_experience'}">
         <div
