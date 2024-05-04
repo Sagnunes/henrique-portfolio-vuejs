@@ -21,7 +21,7 @@ module.exports = withMT( {
         "very-dark-gray": "hsl(0, 0%, 41%)",
       },
       fontFamily: {
-        headline: ['"Josefin Sans"', 'sans-serif'],
+        headline: ['Josefin Sans', 'sans-serif'],
         sans: ["Alata", 'sans-serif'],
       },
       fontSize: {
