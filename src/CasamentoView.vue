@@ -12,7 +12,7 @@
     <img src="/images/casamento/bem_vindos.png" alt="" >
     <div class="grid grid-cols-2 gap-2">
       <img src="/images/casamento/Untitled-1.png" alt="">
-      <img src="/images/casamento/Plano%20de%20mesas.png" alt="">
+      <img src="/images/casamento/cavalete.png" alt="">
     </div>
     <div class="flex flex-row gap-2">
       <img src="/images/casamento/cartao_sobremesa.png" alt="" class="flex w-[731px]">
