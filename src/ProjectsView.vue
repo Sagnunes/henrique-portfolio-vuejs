@@ -26,11 +26,26 @@ import ProjectCard from '@/components/ProjectCard.vue'
                      image_desktop="images/desktop/arquitetura.png" category="Fotografia" />
       </router-link>
 
-
       <router-link :to="{path:'/inventario-arte'}">
-        <ProjectCard title="Inventário de Arte" image_mobile="images/desktop/arte.png" />
+        <div
+          class="relative flex  cursor-pointer flex-col overflow-hidden bg-white bg-clip-border text-gray-700 shadow-md transition-opacity hover:opacity-90"
+        >
+            <span class="grid card">
+                <picture class="relative col-span-full row-span-full">
+                    <source srcset="/images/desktop/arte.png" media="(min-width: 960px)" />
+                    <img src="/images/desktop/arte.png" alt="car wheel" width="654" height="240" />
+                </picture>
+                <h4
+                  class="z-10 row-start-2 ml-5 text-2xl text-white leading-none col-span-full font-headline lg:ml-4 lg:text-[27px] lg:leading-8 lg:tracking-wide ">
+                   Inventário <br>de Arte
+                </h4>
+              <span
+                class="z-10 row-start-2 ml-5 text-2xl text-white leading-none col-span-full font-headline lg:ml-4 lg:text-[13px] lg:leading-8 lg:tracking-[1px] absolute top-[290px] font-bold bg-black bg-opacity-45 px-3">
+                Fotografia
+              </span>
+            </span>
+        </div>
       </router-link>
-
 
       <router-link :to="{path:'/drink'}">
         <ProjectCard title="Design Brand Identity" image_mobile="images/desktop/design_brand.png"
@@ -44,10 +59,24 @@ import ProjectCard from '@/components/ProjectCard.vue'
 
       <ProjectCard title="Cooking" image_mobile="images/desktop/salada.png"
                    image_desktop="images/desktop/salada.png" category="MULTIMEDIA" />
-
-      <ProjectCard title="Expériencias Imersivas" image_mobile="images/desktop/madeira-experiencias.jpg"
-                   image_desktop="images/desktop/madeira-experiencias.jpg" dialog="image-dialog"
-                   category="Multimedia" />
+      <div
+        class="relative flex  cursor-pointer flex-col overflow-hidden bg-white bg-clip-border text-gray-700 shadow-md transition-opacity hover:opacity-90"
+      >
+            <span class="grid card">
+                <picture class="relative col-span-full row-span-full">
+                    <source srcset="/images/desktop/madeira-experiencias.jpg" media="(min-width: 960px)" />
+                    <img src="/images/desktop/madeira-experiencias.jpg" alt="car wheel" width="654" height="240" />
+                </picture>
+                <h4
+                  class="z-10 row-start-2 ml-5 text-2xl text-white leading-none col-span-full font-headline lg:ml-4 lg:text-[27px] lg:leading-8 lg:tracking-wide absolute bottom-0">
+                  Madeira <br>Expériencias Imersivas
+                </h4>
+              <span
+                class="z-10 row-start-2 ml-5 text-2xl text-white leading-none col-span-full font-headline lg:ml-4 lg:text-[13px] lg:leading-8 lg:tracking-[1px] absolute top-[290px] font-bold bg-black bg-opacity-45 px-3">
+                Multimédia
+              </span>
+            </span>
+      </div>
 
       <ProjectCard title="Cartão de Visita" image_mobile="images/desktop/cartao_visita.png"
                    image_desktop="images/desktop/cartao_visita.png" dialog="image-dialog"
