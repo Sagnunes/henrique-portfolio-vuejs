@@ -102,12 +102,13 @@ import ProjectCard from '@/components/ProjectCard.vue'
       </router-link>
     </div>
   </div>
-  <h2
-    class="mb-12 text-center font-headline text-[2rem] leading-8 text-black lg:-mt-px lg:mb-10 lg:text-5xl lg:leading-none">
-    TIMELINE
-  </h2>
-
-  <img src="/images/timeline/timeline.png" alt="">
+  <div class="flex flex-col">
+    <h2
+      class="mb-12 ml-5 font-headline text-[2rem] leading-8 text-black lg:-mt-px lg:mb-10 lg:text-5xl lg:leading-none text-start">
+      TIMELINE
+    </h2>
+    <img src="/images/timeline/timeline.png" alt="" class="ml-20">
+  </div>
 </template>
 
 <style scoped>
