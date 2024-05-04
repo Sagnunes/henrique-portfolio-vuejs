@@ -11,7 +11,7 @@
     <img src="/images/casamento/casamento_header.png" alt="" >
     <img src="/images/casamento/bem_vindos.png" alt="" >
     <div class="grid grid-cols-2 gap-2">
-      <img src="/images/casamento/Untitled-1.png" alt="">
+      <img src="/images/casamento/Untitled-1.png" alt="" class="h-full">
       <img src="/images/casamento/cavalete.png" alt="">
     </div>
     <div class="flex flex-row gap-2">
