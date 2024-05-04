@@ -14,6 +14,7 @@ import CasamentoView from '@/CasamentoView.vue'
 import CartaoVisitaView from '@/CartaoVisitaView.vue'
 import MadeiraExperienceView from '@/MadeiraExperienceView.vue'
 import SaladView from '@/SaladView.vue'
+import OrquestraView from '@/components/OrquestraView.vue'
 
 const routes = [
   { path: '/', component: ProjectsView },
@@ -25,6 +26,7 @@ const routes = [
   { path: '/casamento', component: CasamentoView },
   { path: '/cartao_visita', component: CartaoVisitaView },
   { path: '/madeira_experience', component: MadeiraExperienceView },
+  { path: '/orquestra', component: OrquestraView },
   { path: '/salad', component: SaladView },
   { path: '/project/', component: ProjectView, props: true }
 ]

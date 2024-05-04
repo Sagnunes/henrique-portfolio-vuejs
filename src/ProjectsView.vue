@@ -57,8 +57,10 @@ import ProjectCard from '@/components/ProjectCard.vue'
                      image_desktop="images/desktop/flyer.png" category="Design Gráfico" />
       </router-link>
 
-      <ProjectCard title="Cooking" image_mobile="images/desktop/salada.png"
-                   image_desktop="images/desktop/salada.png" category="MULTIMEDIA" />
+      <router-link :to="{path:'/salad'}">
+       <ProjectCard title="Cooking" image_mobile="images/desktop/salada.png"
+                    image_desktop="images/desktop/salada.png" category="MULTIMEDIA" />
+     </router-link>
 
       <router-link :to="{path:'/madeira_experience'}">
         <div
@@ -93,7 +95,7 @@ import ProjectCard from '@/components/ProjectCard.vue'
                      category="Design Gráfico" />
       </router-link>
 
-      <router-link :to="{path:'/casamento'}">
+      <router-link :to="{path:'/orquestra'}">
         <ProjectCard title="Gravação OCM" image_mobile="images/desktop/musica.png"
                      image_desktop="images/desktop/musica.png" dialog="image-dialog"
                      category="Áudio" />
