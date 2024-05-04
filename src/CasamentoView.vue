@@ -14,12 +14,18 @@
       <img src="/images/casamento/Untitled-1.png" alt="">
       <img src="/images/casamento/Plano%20de%20mesas.png" alt="">
     </div>
-    <img src="/images/casamento/Card%20with%20Hands%20Mockup%201.png" alt="" >
-    <div class="grid grid-cols-2 gap-2">
-      <img src="/images/casamento/casamento_2.png" alt="" class="w-full h-full">
-      <img src="/images/casamento/palete_cores.png" alt="" class="w-full h-full">
+    <div class="flex flex-row gap-2">
+      <img src="/images/casamento/cartao_sobremesa.png" alt="" class="flex w-[731px]">
+      <img src="/images/casamento/cone.png" alt="" class="w-1/3">
     </div>
-    <img src="/images/casamento/Tipo.jpg" alt="" >
+    <div class="relative mb-8">
+      <img src="/images/casamento/folha.png" alt="" class="absolute top-[-150px]">
+      <img src="/images/casamento/Tipo.jpg" alt="" >
+      <img src="/images/casamento/folha2.png" alt="" class="absolute right-0 bottom-[-170px]">
+    </div>
+    <div class="px-10">
+      <img src="/images/casamento/cores_horizontal.png" alt="" class="mt-10">
+    </div>
   </div>
 </template>
 
