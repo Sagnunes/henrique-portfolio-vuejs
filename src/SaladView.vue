@@ -8,7 +8,10 @@
     Voltar
   </router-link>
   <div class="w-full">
-    <iframe width="1112" height="625.5" src="https://www.youtube.com/embed/PtCa2DfUM0s?si=EiaQjNUYrYqz1ZY1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="1112" height="625.5"  src="https://www.youtube.com/embed/xW6bYH_u8j4?si=6nVLKy9ynyDcAdp2"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
 </template>
 
