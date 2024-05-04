@@ -78,9 +78,11 @@ import ProjectCard from '@/components/ProjectCard.vue'
             </span>
       </div>
 
-      <ProjectCard title="Cartão de Visita" image_mobile="images/desktop/cartao_visita.png"
-                   image_desktop="images/desktop/cartao_visita.png" dialog="image-dialog"
-                   category="Design Gráfico" />
+      <router-link :to="{path:'/cartao_visita'}">
+        <ProjectCard title="Cartão de Visita" image_mobile="images/desktop/cartao_visita.png"
+                     image_desktop="images/desktop/cartao_visita.png" dialog="image-dialog"
+                     category="Design Gráfico" />
+      </router-link>
 
       <router-link :to="{path:'/casamento'}">
         <ProjectCard title="Casamento" image_mobile="images/desktop/casamento.png"

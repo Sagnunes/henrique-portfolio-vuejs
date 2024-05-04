@@ -9,6 +9,7 @@
   </router-link>
   <div class="flex flex-col space-y-2 w-fit">
     <img src="/images/casamento/casamento_header.png" alt="" >
+    <img src="/images/casamento/bem_vindos.png" alt="" >
     <div class="grid grid-cols-2 gap-2">
       <img src="/images/casamento/Untitled-1.png" alt="">
       <img src="/images/casamento/Plano%20de%20mesas.png" alt="">
@@ -16,8 +17,9 @@
     <img src="/images/casamento/Card%20with%20Hands%20Mockup%201.png" alt="" >
     <div class="grid grid-cols-2 gap-2">
       <img src="/images/casamento/casamento_2.png" alt="" class="w-full h-full">
-      <img src="/images/casamento/b9fd9635-3432-4f0a-a6c0-0959b825a358.png" alt="" class="w-full h-full">
+      <img src="/images/casamento/palete_cores.png" alt="" class="w-full h-full">
     </div>
+    <img src="/images/casamento/Tipo.jpg" alt="" >
   </div>
 </template>
 
