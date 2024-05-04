@@ -59,9 +59,11 @@ import ProjectCard from '@/components/ProjectCard.vue'
 
       <ProjectCard title="Cooking" image_mobile="images/desktop/salada.png"
                    image_desktop="images/desktop/salada.png" category="MULTIMEDIA" />
-      <div
-        class="relative flex  cursor-pointer flex-col overflow-hidden bg-white bg-clip-border text-gray-700 shadow-md transition-opacity hover:opacity-90"
-      >
+
+      <router-link :to="{path:'/madeira_experience'}">
+        <div
+          class="relative flex  cursor-pointer flex-col overflow-hidden bg-white bg-clip-border text-gray-700 shadow-md transition-opacity hover:opacity-90"
+        >
             <span class="grid card">
                 <picture class="relative col-span-full row-span-full">
                     <source srcset="/images/desktop/madeira-experiencias.jpg" media="(min-width: 960px)" />
@@ -76,7 +78,8 @@ import ProjectCard from '@/components/ProjectCard.vue'
                 Multimédia
               </span>
             </span>
-      </div>
+        </div>
+      </router-link>
 
       <router-link :to="{path:'/cartao_visita'}">
         <ProjectCard title="Cartão de Visita" image_mobile="images/desktop/cartao_visita.png"

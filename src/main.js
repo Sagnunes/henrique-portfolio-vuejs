@@ -12,6 +12,7 @@ import DrinkView from '@/DrinkView.vue'
 import FolhetoView from '@/FolhetoView.vue'
 import CasamentoView from '@/CasamentoView.vue'
 import CartaoVisitaView from '@/CartaoVisitaView.vue'
+import MadeiraExperienceView from '@/MadeiraExperienceView.vue'
 
 const routes = [
   { path: '/', component: ProjectsView },
@@ -22,6 +23,7 @@ const routes = [
   { path: '/folheto', component: FolhetoView },
   { path: '/casamento', component: CasamentoView },
   { path: '/cartao_visita', component: CartaoVisitaView },
+  { path: '/madeira_experience', component: MadeiraExperienceView },
   { path: '/project/', component: ProjectView, props: true }
 ]
 
